@@ -1,6 +1,7 @@
 # GOFINANCES
 
 ![projeto1](screenshot.png)
+![projeto1](screenshot2.jpg)
 
 > Aplicação desenvolvida durante o bootcamp GoStack da Rockeatseat para listar entradas e saídas financeiras
 
