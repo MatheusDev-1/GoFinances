@@ -1,4 +1,4 @@
-# DESAFIO-06
+# GOFINANCES
 
 ![projeto1](screenshot.png)
 
@@ -15,17 +15,14 @@
 >
 > **yarn** dev:server
 
-
-
-
 ## Rotas | Routes
 
 | Método | Rota | Tipo | Parâmetros Aceitos |
 | ------ | ---- | ---- | ------------------ |
-|        |      |      |                    |
-|        |      |      |                    |
-|        |      |      |                    |
-|        |      |      |                    |
+|   GET     |  /transactions    |  QUERY PARAMS    |                    |
+|   POST     |  /transactions    | BODY PARAMS (JSON)    | title, value, type, category |
+|   DELETE     | /transactions/:id     | QUERY PARAMS     | id                   |
+|   POST     | /transactions/import     |  MULTI-PART FORM    | file (.csv)                |
 
 ## Dependências de Produção | Production dependencies
 
@@ -55,15 +52,12 @@
 >
 > **yarn** start 
 
-
-
-
 ## Rotas | Routes
 
 | Rota | Descrição |
 | ------ | ---- | 
-|        |      | 
-|        |      | 
+|    /    | Listagem das receitas e/ou despesas com seu nome, valor, categoria e data     | 
+|    /import    |   Página para importação de arquivo .CSV, permitindo alimentar a base com planilhas   | 
 
 
 ## Dependências de Produção | Production dependencies
